@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>AssetChain</title>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="./assets/css/comm.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+        <script src="https://unpkg.com/gsap@3.12.2/dist/ScrollTrigger.min.js"></script>
+        <script src="https://unpkg.com/gsap@3.12.2/dist/ScrollToPlugin.min.js"></script>
+        <link rel="stylesheet" href="https://kit.fontawesome.com/a6f17a0eaf.css" crossorigin="anonymous" />
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script defer src="./assets/js/comm.js"></script>
+    </head>
+    <body id="intro">
+        <div class="wrap">
+            <!-- <div class="bg-header"></div> -->
+            <div class="video-header-wrap">
+                <div class="video-header">
+                    <div class="video-overlay"></div>
+                    <div class="video-background">
+                        <video autoplay loop muted>
+                            <source src="./assets/main/bg-intro.webm" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                        <!-- 여기에 다른 콘텐츠를 추가할 수 있습니다. -->
+                    </div>
+                    <div class="swiper sec_slide">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="container">
+                                    <strong>빠른 사업추진 가능<span class="dot"></span></strong>
+                                    <p>STO 인프라 및 매매 체결 시스템 준비 시범 서비스 가동</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="container">
+                                    <strong>증권 블록체인 개발 노하우<span class="dot"></span></strong>
+                                    <p>국내 주요 증권사 구축 노하우 <br />암호화폐 거래소 및 STO 인프라 구축 경험</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="container">
+                                    <strong>인프라 경쟁력<span class="dot"></span></strong>
+                                    <p>금융 인프라와 동일한 구조로 구현 <br />빠른 처리속도, 보완성 강화</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="container">
+                                    <strong>상품 확장성<span class="dot"></span></strong>
+                                    <p>
+                                        수익증권, 웹툰, 음원, 영화 등 투자계약증권 <br />다양한 상품거래가 가능한 인프라
+                                        환경
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="indicator">
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button swiper-button-prev"></div>
+                            <div class="swiper-button swiper-button-next"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="major-wrap">
+                <div class="major-stock swiper major-swiper">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <a href="javascript:void(0)" class="background-up">
+                                <div class="info">
+                                    <p class="type">코스피 종합</p>
+                                    <p class="price">2,667.92</p>
+                                    <span class="wts-icon icon" style="display: flex">
+                                        <i class="fa-solid fa-caret-up"></i>
+                                        <span>62.42</span>
+                                        &nbsp;(<span>0.16%</span>)
+                                    </span>
+                                </div>
+                                <div class="chart-area">
+                                    <div class="highcharts-container"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="javascript:void(0)" class="background-down">
+                                <div class="info">
+                                    <p class="type">코스피 종합</p>
+                                    <p class="price">2,667.92</p>
+                                    <span class="wts-icon icon">
+                                        <i class="fa-solid fa-caret-up"></i>
+                                        <span>62.42</span>
+                                        &nbsp;(<span>0.16%</span>)
+                                    </span>
+                                </div>
+                                <div class="chart-area">
+                                    <div class="highcharts-container"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="javascript:void(0)" class="background-up">
+                                <div class="info">
+                                    <p class="type">코스피 종합</p>
+                                    <p class="price">2,667.92</p>
+                                    <span class="wts-icon icon" style="display: flex">
+                                        <i class="fa-solid fa-caret-up"></i>
+                                        <span>62.42</span>
+                                        &nbsp;(<span>0.16%</span>)
+                                    </span>
+                                </div>
+                                <div class="chart-area">
+                                    <div class="highcharts-container"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="javascript:void(0)" class="background-up">
+                                <div class="info">
+                                    <p class="type">코스피 종합</p>
+                                    <p class="price">2,667.92</p>
+                                    <span class="wts-icon icon" style="display: flex">
+                                        <i class="fa-solid fa-caret-up"></i>
+                                        <span>62.42</span>
+                                        &nbsp;(<span>0.16%</span>)
+                                    </span>
+                                </div>
+                                <div class="chart-area">
+                                    <div class="highcharts-container"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="javascript:void(0)" class="background-down">
+                                <div class="info">
+                                    <p class="type">코스피 종합</p>
+                                    <p class="price">2,667.92</p>
+                                    <span class="wts-icon icon">
+                                        <i class="fa-solid fa-caret-up"></i>
+                                        <span>62.42</span>
+                                        &nbsp;(<span>0.16%</span>)
+                                    </span>
+                                </div>
+                                <div class="chart-area">
+                                    <div class="highcharts-container"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="javascript:void(0)" class="background-up">
+                                <div class="info">
+                                    <p class="type">코스피 종합</p>
+                                    <p class="price">2,667.92</p>
+                                    <span class="wts-icon icon" style="display: flex">
+                                        <i class="fa-solid fa-caret-up"></i>
+                                        <span>62.42</span>
+                                        &nbsp;(<span>0.16%</span>)
+                                    </span>
+                                </div>
+                                <div class="chart-area">
+                                    <div class="highcharts-container"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="javascript:void(0)" class="background-down">
+                                <div class="info">
+                                    <p class="type">코스피 종합</p>
+                                    <p class="price">2,667.92</p>
+                                    <span class="wts-icon icon">
+                                        <i class="fa-solid fa-caret-up"></i>
+                                        <span>62.42</span>
+                                        &nbsp;(<span>0.16%</span>)
+                                    </span>
+                                </div>
+                                <div class="chart-area">
+                                    <div class="highcharts-container"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="javascript:void(0)" class="background-up">
+                                <div class="info">
+                                    <p class="type">코스피 종합</p>
+                                    <p class="price">2,667.92</p>
+                                    <span class="wts-icon icon" style="display: flex">
+                                        <i class="fa-solid fa-caret-up"></i>
+                                        <span>62.42</span>
+                                        &nbsp;(<span>0.16%</span>)
+                                    </span>
+                                </div>
+                                <div class="chart-area">
+                                    <div class="highcharts-container"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="javascript:void(0)" class="background-up">
+                                <div class="info">
+                                    <p class="type">코스피 종합</p>
+                                    <p class="price">2,667.92</p>
+                                    <span class="wts-icon icon" style="display: flex">
+                                        <i class="fa-solid fa-caret-up"></i>
+                                        <span>62.42</span>
+                                        &nbsp;(<span>0.16%</span>)
+                                    </span>
+                                </div>
+                                <div class="chart-area">
+                                    <div class="highcharts-container"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="javascript:void(0)" class="background-down">
+                                <div class="info">
+                                    <p class="type">코스피 종합</p>
+                                    <p class="price">2,667.92</p>
+                                    <span class="wts-icon icon">
+                                        <i class="fa-solid fa-caret-up"></i>
+                                        <span>62.42</span>
+                                        &nbsp;(<span>0.16%</span>)
+                                    </span>
+                                </div>
+                                <div class="chart-area">
+                                    <div class="highcharts-container"></div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="bg-gray">
+                <img src="./assets/main/sample.png" alt="" style="display: block; margin: 0 auto" />
+            </div>
+
+            <div class="sec-g sec-2">
+                <div class="container">
+                    <div class="col-left">
+                        <div class="title">
+                            <h2 data-aos="fade-up">
+                                장외거래 <br />
+                                중개업 <br />
+                                <span>필요사항</span>
+                            </h2>
+                            <!-- <img src="./assets/main/SVG/img-sec2.svg" alt="" /> -->
+                        </div>
+                    </div>
+                    <div class="col-right">
+                        <div class="content" data-aos="fade-up" data-aos-delay="50">
+                            <ul>
+                                <li>
+                                    <i class="fa-thin fa-flux-capacitor"></i>
+                                    <strong>매칭 시스템</strong>
+                                    <p>
+                                        매칭, 정보 분배, 주문 처리 시스템<br />
+                                        (다자간 매매체결 시스템, 상대 매매)
+                                    </p>
+                                </li>
+                                <li>
+                                    <i class="fa-thin fa-solar-system"></i>
+                                    <strong>투자정보/채널 처리 시스템</strong>
+                                    <p>
+                                        상품 투자를 위한 투자정보 시스템 및 <br />
+                                        단말을 위한 채널 처리 시스템
+                                    </p>
+                                </li>
+                                <li>
+                                    <i class="fa-thin fa-camera-cctv"></i>
+                                    <strong>시장 감시 시스템</strong>
+                                    <p>이상 거래를 탐지하는 감시 시스템</p>
+                                </li>
+                                <li>
+                                    <i class="fa-thin fa-mobile-notch"></i>
+                                    <strong>거래를 위한 단말</strong>
+                                    <p>PC/Web/Mobile용 거래용 단말</p>
+                                </li>
+                                <li>
+                                    <i class="fa-thin fa-won-sign"></i>
+                                    <strong>원화 계좌 및 원화 원장</strong>
+                                    <p>입출금 가능한 실명 계좌(은행 계좌) 연동 및 원화 원장, 투자자 예치금 분리 보관</p>
+                                </li>
+                                <li>
+                                    <i class="fa-sharp fa-thin fa-money-check"></i>
+                                    <strong>상품 원장</strong>
+                                    <p>상품에 대한 잔고 관리를 위한 상품 원장</p>
+                                </li>
+                                <li>
+                                    <i class="fa-sharp fa-thin fa-webhook"></i>
+                                    <strong>계좌관리 기관과의 연동 API</strong>
+                                    <p>
+                                        거래를 위한 상품 이동 및 거래 후 <br />
+                                        잔고 업데이트 용 API
+                                    </p>
+                                </li>
+                                <li>
+                                    <i class="fa-thin fa-calculator-simple"></i>
+                                    <strong>원장 Back-end 및 회계 시스템</strong>
+                                    <p>
+                                        상품 발행 후 상품을 담을 수 있는 <br />
+                                        지갑 필요
+                                    </p>
+                                </li>
+                                <li>
+                                    <i class="fa-thin fa-seal-exclamation"></i>
+                                    <strong>인증시스템</strong>
+                                </li>
+                                <li>
+                                    <i class="fa-thin fa-lock"></i>
+                                    <strong>ISMS등 인증 및 보안 체계</strong>
+                                </li>
+                                <li>
+                                    <i class="fa-sharp fa-thin fa-gear-complex-code"></i>
+                                    <strong>Compliance 체계</strong>
+                                </li>
+                                <li>
+                                    <i class="fa-sharp fa-thin fa-award"></i>
+                                    <strong>상장을 위한 외부 평가</strong>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sec-g sec-3">
+                <div class="container">
+                    <div class="title">
+                        <h2 data-aos="fade-up">토큰증권 상품</h2>
+                    </div>
+                    <div class="content" data-aos="fade-up" data-aos-delay="50">
+                        <ul class="list-item">
+                            <li>
+                                <i class="fa-sharp fa-light fa-chart-network"></i>
+                                <strong>신탁수익증권</strong>
+                                <ul class="item-detail">
+                                    <li>신탁을 통한 수익 증권</li>
+                                    <li>기존 많은 조각 거래 상품 (부동산, 음원 등)</li>
+                                    <li>동산(비행기, 선박, 차량 등)을 활용한 투자 상품</li>
+                                    <li>투자신탁형 집합투자 (펀드)</li>
+                                    <li>다양한 형태의 수익 증권 기대</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <i class="fa-light fa-chart-scatter-bubble"></i>
+                                <strong>투자계약증권</strong>
+                                <ul class="item-detail">
+                                    <li>출자 지분 형태의 상품</li>
+                                    <li>크라우드 펀딩 형태의 투자 증권</li>
+                                    <li>IP 관련 투자 상품</li>
+                                    <li>단기간 투자 상품</li>
+                                    <li>가장 다양한 상품이 나올 것으로 예상</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <i class="fa-sharp fa-light fa-chart-scatter-3d"></i>
+                                <strong>지분증권</strong>
+                                <ul class="item-detail">
+                                    <li>비상장 주식</li>
+                                    <li>출자 증권</li>
+                                    <li>회사형 집합투자 (펀드)</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <i class="fa-sharp fa-light fa-circles-overlap"></i>
+                                <strong>채무증권</strong>
+                                <ul class="item-detail">
+                                    <li>장외 채권 (회사채 등)</li>
+                                    <li>채무 형태의 권리의 증권화</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <i class="fa-sharp fa-light fa-diagram-project"></i>
+                                <strong>파생결합증권</strong>
+                                <ul class="item-detail">
+                                    <li>주가 연동 상품</li>
+                                    <li>금리 연동 상품</li>
+                                    <li>환율 연동 상품</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sec-g sec-4">
+                <div class="video-overlay"></div>
+                <div class="video-background">
+                    <video autoplay loop muted>
+                        <source src="./assets/main/bg-sec4.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                    <!-- 여기에 다른 콘텐츠를 추가할 수 있습니다. -->
+                </div>
+
+                <div class="container">
+                    <div class="title">
+                        <h2 data-aos="fade-up">장외거래 거래 시스템</h2>
+                    </div>
+                    <div class="content" data-aos="fade-up" data-aos-delay="50">
+                        <div class="col-1">
+                            <ul>
+                                <li>
+                                    증권사를 위한 고속 시세주문 <br />
+                                    (기존 KRX 데이터포맷 호환)
+                                </li>
+                                <li>OpenAPI를 통한 소규모발행인 지원</li>
+                                <li>이상거래탐지를 위한 시장감시 시스템</li>
+                                <li>ISMS 인증 가능한 보안시스템 구축</li>
+                                <li>시장 진입/퇴출 기준(시장위원회)</li>
+                            </ul>
+                        </div>
+                        <div class="col-2">
+                            <div class="box-1">
+                                <strong>매칭 엔진</strong>
+                                <ul class="list-box">
+                                    <li>정보 분배 (시세)</li>
+                                    <li>
+                                        주문 시스템 <br />
+                                        (주문/체결)
+                                    </li>
+                                    <li>투자 정보 시스템</li>
+                                    <li>원화 원장</li>
+                                    <li>채널 접속 시스템</li>
+                                    <li>상품 원장</li>
+                                </ul>
+                                <strong>상품 서비스</strong>
+                                <strong>서비스 단말</strong>
+                            </div>
+                            <div class="box-2">
+                                <ul>
+                                    <li>시장감시</li>
+                                    <li>발행자 I/F</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <ul>
+                                <li>
+                                    조직의 효율성 <br />
+                                    - 인력 15명 ~ 20명 내외 출범
+                                </li>
+                                <li>
+                                    금융사 수준의 IT 시스템 <br />
+                                    <span>- 신뢰성과 속도 확보</span>
+                                </li>
+                                <li>적은 자원으로 대용량 초고속 서비스</li>
+                                <li>
+                                    서비스 운영 비용 최소화 <br />
+                                    <span>- 파이낸셜 클라우드 활용</span>
+                                </li>
+                                <li>네트워크 비용의 절감</li>
+                                <li>
+                                    통일된 기술 표준을 통한 <br />
+                                    STO 에코 시스템 구성
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="sec-g sec-5 horizontal">
+                <div class="title">
+                    <h2 data-aos="fade-up">
+                        STO 인프라
+                        <span>경쟁력</span>
+                    </h2>
+                    <!-- <img src="./assets/main/SVG/img-sec2.svg" alt="" /> -->
+                </div>
+                <div class="pin-wrap">
+                    <div class="animation-wrap to-right">
+                        <div class="item"></div>
+                        <div class="item">
+                            <strong>
+                                증권사 솔루션 점유율 1위의 <br />
+                                <span>기술 경쟁력과 시장 지배력으로 Fintech 사업 선도</span></strong
+                            >
+                        </div>
+                        <div class="item">
+                            <strong>
+                                증권형 토근에 대한 이해와 관련 기술 확보 및<br />
+                                <span>
+                                    증권사 최초의 STO 파일럿 및 <br />
+                                    구축 경험</span
+                                ></strong
+                            >
+                        </div>
+                        <div class="item">
+                            <strong
+                                >증권 거래소 수준의<br />
+                                <span
+                                    >신뢰성, 고 가용성, 대용량, <br />
+                                    로우레이턴시 기술 개발 능력</span
+                                ></strong
+                            >
+                        </div>
+                        <div class="item">
+                            <strong
+                                ><span
+                                    >자본 시장 및 금융 시장의 이해도<br />
+                                    및 관련 서비스 기획력</span
+                                ></strong
+                            >
+                        </div>
+                        <div class="item">
+                            <strong>증권사 연계 시 <br /><span>관련 기술적 이해도 우위</span></strong>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 이 부분은 수정된 것이 없습니다. 테스트 하려고 넣었어요. -->
+            <div class="custom-wrap">
+                <div class="sec-custom container">
+                    <div class="intro-sec__hd type2">
+                        <!-- <div class="ico-box">
+                            <i class="fa-solid fa-phone"></i>
+                        </div> -->
+                        고객센터
+                    </div>
+                    <div class="intro-sec__bd">
+                        <a href="tel:02-784-0701" class="link-tel"
+                            >02-784-0701
+                            <span>(평일 09:00 ~ 18:00)</span>
+                        </a>
+
+                        <div class="d-flex mt-4">
+                            <a href="#" class="link-kakao">
+                                <img src="../assets/images/icon/logo-kakao.svg" alt="" /> 카카오톡 상담하기
+                            </a>
+                            <a href="#" class="link-faq">자주하는 질문 FAQ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--wrap-->
+    </body>
+</html>
